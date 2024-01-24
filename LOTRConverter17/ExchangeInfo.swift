@@ -24,53 +24,14 @@ struct ExchangeInfo: View {
                     .padding()
                 
                 // Currency exchange rates
-                ExchangeRate()
+                ExchangeRate(leftImage: .goldpiece, text: "1 Gold Piece = 4 Gold Pennies", rightImage: .goldpenny)
+
+                ExchangeRate(leftImage: .goldpenny, text: "1 Gold Penny = 4 Silver Pieces", rightImage: .silverpiece)
                 
-                ExchangeRate()
+                ExchangeRate(leftImage: .silverpiece, text: "1 Silver Pience = 4 Silver Pennies", rightImage: .silverpenny)
                 
-                ExchangeRate()
+                ExchangeRate(leftImage: .silverpenny, text: "1 Silver Penny = 100 Copper Pennies", rightImage: .copperpenny)
                 
-//                HStack {
-//                    Image(.goldpenny)
-//                        .resizable()
-//                        .scaledToFit()
-//                        .frame(height: 33)
-//                    
-//                    Text("1 Gold Penny = 4 Silver Pieces")
-//                    
-//                    Image(.silverpiece)
-//                        .resizable()
-//                        .scaledToFit()
-//                        .frame(height: 33)
-//                }
-//                
-//                HStack {
-//                    Image(.silverpiece)
-//                        .resizable()
-//                        .scaledToFit()
-//                        .frame(height: 33)
-//                    
-//                    Text("1 Silver Pience = 4 Silver Pennies")
-//                    
-//                    Image(.silverpenny)
-//                        .resizable()
-//                        .scaledToFit()
-//                        .frame(height: 33)
-//                }
-//                
-//                HStack {
-//                    Image(.silverpenny)
-//                        .resizable()
-//                        .scaledToFit()
-//                        .frame(height: 33)
-//                    
-//                    Text("1 Silver Penny = 100 Copper Pennies")
-//                    
-//                    Image(.copperpenny)
-//                        .resizable()
-//                        .scaledToFit()
-//                        .frame(height: 33)
-//                }
                 // Button
                 Button("Done") {
                     
