@@ -12,6 +12,7 @@
 		F0272BA62B541120005CD84B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0272BA52B541120005CD84B /* ContentView.swift */; };
 		F0272BA82B541122005CD84B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0272BA72B541122005CD84B /* Assets.xcassets */; };
 		F0272BAB2B541122005CD84B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0272BAA2B541122005CD84B /* Preview Assets.xcassets */; };
+		F058B9CC2B612264009DB5A8 /* ExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F058B9CB2B612264009DB5A8 /* ExchangeRate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		F0272BA52B541120005CD84B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F0272BA72B541122005CD84B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0272BAA2B541122005CD84B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F058B9CB2B612264009DB5A8 /* ExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				F0272BA32B541120005CD84B /* LOTRConverter17App.swift */,
 				F0272BA52B541120005CD84B /* ContentView.swift */,
 				F00BE1DD2B57484A00C4AAC3 /* ExchangeInfo.swift */,
+				F058B9CB2B612264009DB5A8 /* ExchangeRate.swift */,
 				F0272BA72B541122005CD84B /* Assets.xcassets */,
 				F0272BA92B541122005CD84B /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F058B9CC2B612264009DB5A8 /* ExchangeRate.swift in Sources */,
 				F00BE1DE2B57484A00C4AAC3 /* ExchangeInfo.swift in Sources */,
 				F0272BA62B541120005CD84B /* ContentView.swift in Sources */,
 				F0272BA42B541120005CD84B /* LOTRConverter17App.swift in Sources */,

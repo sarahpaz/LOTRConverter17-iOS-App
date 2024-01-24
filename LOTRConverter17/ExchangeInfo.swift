@@ -24,19 +24,11 @@ struct ExchangeInfo: View {
                     .padding()
                 
                 // Currency exchange rates
-                HStack {
-                    Image(.goldpiece)
-                        .resizable()
-                        .scaledToFit()
-                        .frame(height: 33)
-                    
-                    Text("1 Gold Piece = 4 Gold Pennies")
-                    
-                    Image(.goldpenny)
-                        .resizable()
-                        .scaledToFit()
-                        .frame(height: 33)
-                }
+                ExchangeRate()
+                
+                ExchangeRate()
+                
+                ExchangeRate()
                 
 //                HStack {
 //                    Image(.goldpenny)
